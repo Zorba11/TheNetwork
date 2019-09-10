@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://zorba11:zorba123@thenetwork-w7a0g.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "myjwtsecrettoken"
+  "jwtSecret": "myjwtsecrettoken",
+  "githubClientId": "1951bab04c39daec3dc2",
+  "githubSecret": "ad0de551150f6548ae29d0d7246916ba67cbbe43"
 }
