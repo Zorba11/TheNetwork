@@ -2,7 +2,6 @@ import React from 'react'
 
 const landing = () => {
   return (
-    <div>
       <section className="landing">
       <div className="dark-overlay">
         <div className="landing-inner">
@@ -17,7 +16,6 @@ const landing = () => {
         </div>
       </div>
     </section>
-    </div>
   )
 }
 
