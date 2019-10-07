@@ -9,9 +9,8 @@ import './App.css';
 const App = () => 
 <Router>
 <Fragment>
-   <Route exact path="/" component={Landing}></Route>
    <Navbar></Navbar>
-  
+   <Route exact path="/" component={Landing}></Route>
    <section className="container">
     <Switch>
       <Route exact path="/register" component={Register}></Route>
