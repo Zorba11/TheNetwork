@@ -9,14 +9,14 @@ import './App.css';
 const App = () => 
 <Router>
 <Fragment>
-   <Navbar></Navbar>
-   <Route exact path="/" component={Landing}></Route>
-   <section className="container">
-    <Switch>
+{/* <section className="container"> */}
+<Navbar></Navbar>
+<Switch>
+   <Route exact path="/" component={Landing}></Route>   
       <Route exact path="/register" component={Register}></Route>
       <Route exact path="/login" component={Login}></Route>
-    </Switch>
-   </section>
+      </Switch>
+    {/* </section> */}
  </Fragment>
 </Router>
 
